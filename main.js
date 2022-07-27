@@ -6,4 +6,5 @@ btn.addEventListener('click', ()=>{
     const randcol= `rgb(${randnum(255)}, ${randnum(255)}, ${randnum(255)})`;
     console.log(randcol);
     document.body.style.backgroundColor=randcol;
+    bt.textContent=randcol;
 });
